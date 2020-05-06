@@ -1,7 +1,45 @@
 .bg-roxo{
-    background-color: #a33fa3;
+    background-color: #7E459B;
 }
 
-nav a:hover{
-    font-weight: bold;
+a:hover{
+  font-weight: bold;
 }
+
+.img-carousel{
+  object-fit: cover;
+  object-position: 0 40%;
+  height: 75vh;
+}
+
+.icons_media {
+    color: #7E459B;
+}
+
+.habilities {
+    background-color:#7E459B;
+}
+
+/* .card {
+ margin: 90px;
+} */
+.card-img-top {
+    object-fit: fill;
+   height: 300px;
+   border-bottom: 1px solid rgb(216, 209, 209);
+
+}
+
+.btn-roxo {
+    color: #fff;
+    background-color: #7E459B;
+}
+
+.btn-roxo:hover {
+    color: beige;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 10px;
+} 
