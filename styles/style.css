@@ -16,13 +16,6 @@ a:hover{
     color: #7E459B;
 }
 
-.habilities {
-    background-color:#7E459B;
-}
-
-/* .card {
- margin: 90px;
-} */
 .card-img-top {
     object-fit: fill;
    height: 300px;
