@@ -16,23 +16,14 @@ a:hover{
     color: #7E459B;
 }
 
-.card-img-top {
-    object-fit: fill;
-   height: 300px;
-   border-bottom: 1px solid rgb(216, 209, 209);
-
+button{
+    width: 100px;
 }
 
-.btn-roxo {
-    color: #fff;
-    background-color: #7E459B;
+button:hover{
+    opacity: .9;
 }
 
-.btn-roxo:hover {
-    color: beige;
+.reprograma{
+    color: #d282f7;
 }
-
-.footer {
-    margin-top: 40px;
-    padding: 10px;
-} 

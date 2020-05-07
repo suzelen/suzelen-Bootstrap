@@ -16,16 +16,16 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
         <div class="container">
-            <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
+            <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Re<span class="font-weight-light">programa}</span></a>
+            <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
                 aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+        </a>
 
             <div class="collapse navbar-collapse justify-content-end" id="menudesktop">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Habilidades</a>
+                        <a class="nav-link text-white" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Sobre</a>
@@ -70,18 +70,18 @@
         <div class="text-center my-4">
             <h3 class="font-weight-bold">Suzelen Braga de Santana</h3>
             <p class="font-italic">Desenvolvedora Front End</p>
-            <ul class="fa-ul d-flex flex-wrap justify-content-around">
-                <li><i class="fab fa-github-alt mr-2 icons_media"></i>github.com/suzelen</li>
-                <li><i class="fab fa-linkedin mr-2 icons_media"></i>linkedin.com/in/suzelen-braga-de-santana/</li>
-                <li><i class="fas fa-envelope mr-2 icons_media"></i>suzelenstar@gmail.com</li>
-            </ul>
+            <div class="fa-ul d-flex flex-wrap justify-content-around">
+                <a href="github.com/suzelen" target="_black"><i class="fab fa-github-alt mr-2 icons_media"></i>github</a>
+                <a href="linkedin.com/in/suzelen-braga-de-santana/" target="_black"><i class="fab fa-linkedin mr-2 icons_media"></i>linkedin</a>
+                <a href="mailto:suzelenstar@gmail.com" target="_black"><i class="fas fa-envelope mr-2 icons_media"></i>suzelenstar@gmail.com</a>
+            </div>
         </div>
     </section>
 
     <!-- SOBRE -->
 
-    <section>
-        <div class="d-flex justify-content-around text-white bg-roxo">
+    <section id="habilidades">
+        <div class="row justify-content-around text-white bg-roxo">
             <div class="icons m-4 col">
                 <h3 class="d-flex justify-content-center m-4">Habilidades</h3>
                 <div class="d-flex justify-content-center">
@@ -132,6 +132,106 @@
     </section>
 
     <!-- PORTFÓLIO  -->
+    <section class="diva-mae__cardtitle text-center mt-5">
+      <h2>Portfólio</h2>
+<div class="row justify-content-around mb-5 modal-cards ">
+
+    <!-- card 1  -->
+    <div class="card m-5" style="width: 18rem;">
+        <img src="img/Sobre a autora.jpg" class="card-img-top" alt="...">
+        <div class="text-center card-body">
+          <h5 class="card-title">Suzelen Braga de Santana</h5>
+          <p class="card-text">Mês/2020</p>
+        </div>
+        <button type="button" class="m-5 text-white btn bg-roxo m-auto" data-toggle="modal" data-target="#modal1">Veja Mais</button>
+    </div>
+    
+  <!-- Modal 1-->
+  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Suzelen Braga de Santana</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"><p>Aqui tem a descrição completa do projeto</p></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <a href="#" target="blank" class="btn bg-roxo text-white">Ver Página</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- card 2  -->
+      <div class="card m-5" style="width: 18rem;">
+        <img src="img/M de maravilhosa.jpg" class="card-img-top" alt="...">
+        <div class="text-center card-body">
+          <h5 class="card-title">M de Maravilhosa</h5>
+          <p class="card-text">Mês/2020</p>
+        </div>
+        <button type="button" class="m-5 text-white btn bg-roxo m-auto" data-toggle="modal" data-target="#modal2">Veja Mais</button>
+    </div>
+    
+  <!-- Modal 2-->
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Suzelen Braga de Santana</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"><p>Aqui tem a descrição completa do projeto</p></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Ver Página</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- card 3  -->
+        <div class="card m-5" style="width: 18rem;">
+            <img src="img/To do List.jpg" class="card-img-top" alt="...">
+            <div class="text-center card-body">
+              <h5 class="card-title">Lista de Tarefas</h5>
+              <p class="card-text">Mês/2020</p>
+            </div>
+            <button type="button" class="m-5 text-white btn bg-roxo m-auto" data-toggle="modal" data-target="#modal3">Veja Mais</button>
+        </div>
+        
+      <!-- Modal 3-->
+      <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Suzelen Braga de Santana</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"><p>Aqui tem a descrição completa do projeto</p></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary">Ver Página</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+</section>
+
+     <!-- FOOTER  -->
+    <footer class="bg-roxo footer text-center p-3 ">
+        <p class="text-white">Desenvolvido com Bootstrap por <a class="text-white"
+                href="github.com/suzelen">Suzelen</a>, enquanto aluna da <span class="reprograma">{reprograma}</span> 2020</p>
+    </footer>
+
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
